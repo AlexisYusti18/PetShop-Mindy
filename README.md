@@ -1,6 +1,6 @@
-# [Mindy PetShop](https://mytinerary-alexis-yusti.herokuapp.com/) | 
+# [Mindy PetShop](https://mindy-petshop.netlify.app/) | 
 
-<!-- [![Captura-de-pantalla-450.png](https://i.postimg.cc/NMtprpXr/Captura-de-pantalla-450.png)](https://mytinerary-alexis-yusti.herokuapp.com/) -->
+[![Inicio-MINDY-PETSHOP-Google-Chrome-09-08-2022-17-03-10.png](https://i.postimg.cc/G2pb8rm6/Inicio-MINDY-PETSHOP-Google-Chrome-09-08-2022-17-03-10.png)](https://mindy-petshop.netlify.app/)
 
 # Resume 📜
 Group website that in 30 hours developed all over. It has the home, pharmacy, toy and contact sections. It has filters to look for a body. It is an online tende where the user can corder products to the car.
