@@ -5,45 +5,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html::-webkit-scrollbar {
+    margin: 10px;
+    background-color: #eec640;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #f783ac;
+}
 header{
-    background-color: #ff7c44;
-    height: 15vh;
+    background-color: #fff;
+    min-height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .btn-lg{
     text-decoration: none;
-    margin: .4rem;
-    background-color: #eec640;
+    margin: 10px;
     color: black;
-    border: 2px black solid;
+    border: none;
     border-radius: 5px;
-    
+    text-transform: uppercase;
 }
 .nav-link{
     font-size: 2rem;
     color: #ffa0c1;
-    background-color: #eec640;
 }
 .btn-lg:hover{
-    background-color: rgb(214, 213, 213);
-    color: black;
-    opacity: 90%;
+    color:#f5387a;
 }
 .logo{
-height:17vh;
+    width: 5vw;
 }
 .text-pink{
     color:#f5387a
 }
-main{
+/* main{
     min-height: 75vh;
     background-image: url(../assets/fondo.png);
     background-size: contain;
-}
+} */
 .banner{
     height: 35vh;
     background-image: url(../assets/perros-banner.jpg);
@@ -77,10 +78,6 @@ i{
 }
 .grilla-jugueteria{
     padding: 1rem;
-}
-#footer-container{
-    min-height: 10vh ;
-    background-color: #eec640;
 }
 
 #formulario{
@@ -121,7 +118,7 @@ background-color: whitesmoke;
 } 
 
 .carrousel-ctn{
-    min-height: 60vh;
+    min-height: 90vh !important;
 
 }
 .card{
@@ -141,24 +138,24 @@ background-color: whitesmoke;
 }
 
 .slide img{
-    height: 80vh;
+    height: 90vh;
     object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .title{
-    font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    font-size: 4rem;
-    color: #f783ac;
-    text-shadow: 3px 3px #ffda60;
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
 }
 .subtitle{
-    
     text-align: center;
     font-size: 1.7rem;
-    font-weight: 700;
-    color: #ffda60;
-    text-shadow: 2px 1px #f783ac;
+    text-align: center;
+    color:#fff;
 }
 .negrita{
     font-weight: 800;
@@ -168,27 +165,22 @@ h4{
     color: white;
     object-fit: cover;
 }
-.index-map{
-    padding: 1rem;
-    min-height: 20vh; 
-    max-width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
 
-    margin: 1rem 1rem;
-    flex-direction: column;
-    background-color: #ffa0c1;
-}
 .h4-map{
     text-align: center;
     color: white;
     padding-bottom: 1rem;
+    font-size: 40px;
 }
 .conteiner-map{
     display: flex;
     justify-content: center;
     padding: 2rem;
+    background-color:#eec640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 li a{
@@ -212,4 +204,21 @@ li a{
     opacity: 90%;
     width: 30vh;
     }
+}
+
+#carrito-container {
+    min-height: 60vh;
+}
+footer{
+    background-color: #fff;
+    min-height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.a-footer{
+    color: #f5387a;
+    margin: 10px;
 }
